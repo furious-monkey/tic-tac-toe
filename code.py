@@ -121,4 +121,5 @@ def flip_player():
   elif current_player == "O":
     current_player = "X"
 
+# call the function
 play_game()
