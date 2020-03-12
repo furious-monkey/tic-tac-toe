@@ -48,6 +48,7 @@ def check_if_game_over():
   check_for_winner()
   check_for_tie()
 
+# finds if any player is the winner
 def check_for_winner():
   global winner
   row_winner = check_rows()
