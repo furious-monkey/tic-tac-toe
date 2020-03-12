@@ -6,7 +6,7 @@ game_still_going = True
 winner = None
 current_player = "X"
 
-# the function below is the step by step execution of all the functions defined.
+# the function below is the step by step execution of all the functions defined below.
 def play_game():
   print("\n    X - O     G A M E\n")
   print("Note : Use the numpad to enter X or O in respective fields.\n")
