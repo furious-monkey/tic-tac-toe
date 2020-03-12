@@ -63,6 +63,7 @@ def check_for_winner():
   else:
     winner = None
 
+# checks if any horizontal x/o pattern is present
 def check_rows():
   global game_still_going
   row_1 = board[0] == board[1] == board[2] != "-"
