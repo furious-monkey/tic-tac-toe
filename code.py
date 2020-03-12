@@ -43,6 +43,7 @@ def handle_turn(player):
   board[position] = player
   display_board()
 
+# verifies if the game is completed
 def check_if_game_over():
   check_for_winner()
   check_for_tie()
