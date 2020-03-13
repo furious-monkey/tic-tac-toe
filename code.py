@@ -111,6 +111,7 @@ def check_diagonals():
   else:
     return None
 
+# checks if the board is completely filled or not
 def check_for_tie():
   global game_still_going
   if "-" not in board:
@@ -119,6 +120,7 @@ def check_for_tie():
   else:
     return False
 
+# swiaps the players 
 def flip_player():
   global current_player
   if current_player == "X":
