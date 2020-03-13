@@ -97,6 +97,7 @@ def check_columns():
   else:
     return None
 
+# checks if any x/o pattern is present diagonally on the board
 def check_diagonals():
   global game_still_going
   diagonal_1 = board[0] == board[4] == board[8] != "-"
