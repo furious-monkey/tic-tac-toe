@@ -120,7 +120,7 @@ def check_for_tie():
   else:
     return False
 
-# swiaps the players 
+# swaps the players 
 def flip_player():
   global current_player
   if current_player == "X":
