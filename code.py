@@ -80,6 +80,7 @@ def check_rows():
   else:
     return None
 
+# checks if any hvertical x/o pattern is present
 def check_columns():
   global game_still_going
   column_1 = board[0] == board[3] == board[6] != "-"
